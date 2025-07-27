@@ -46,13 +46,22 @@ _(No downloads. Just launch and play!)_
 
 ## 🗂️ Project Structure
 
+Here’s how I organized the Assets folder:
+
+
 Assets/
-├── Art/         # Sprites and visuals
-├── Audio/       # Music and sound effects
-├── Prefabs/     # Snake parts, fruit
-├── Scripts/     # Game logic
-├── Scenes/      # Game and menu scenes
-└── UI/          # Buttons, fonts
+
+├── Art/ # All visuals, images
+
+├── Audio/ # Music and SFX
+
+├── Prefabs/ # Reusable game objects
+
+├── Scenes/ # Game and menu scenes
+
+├── Scripts/ # All C# code
+
+├── UI/ # Buttons, texts, fonts
 
 ---
 
