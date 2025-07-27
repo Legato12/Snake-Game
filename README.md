@@ -47,12 +47,13 @@ _(No downloads. Just launch and play!)_
 ## 🗂️ Project Structure
 
 Assets/
-├── Art/ # Sprites and visuals
-├── Audio/ # Music and sound effects
-├── Prefabs/ # Snake parts, fruit
-├── Scripts/ # Game logic
-├── Scenes/ # Game and menu
-├── UI/ # Buttons, fonts
+├── Art/         # Sprites and visuals
+├── Audio/       # Music and sound effects
+├── Prefabs/     # Snake parts, fruit
+├── Scripts/     # Game logic
+├── Scenes/      # Game and menu scenes
+└── UI/          # Buttons, fonts
+
 ---
 
 ## 👨‍💻 Author
