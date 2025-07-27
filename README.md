@@ -1,144 +1,68 @@
-\# 🐍 Snake Game – Unity Remake
+# 🐍 Snake Game – Classic Arcade Remake
 
+A modern remake of the classic Snake game, built in Unity 2020.3.43f1.  
+Smooth movement, retro pixel feel, and clean UI — now playable right in your browser!
 
-
-A retro-style snake game built in Unity. Inspired by the classic mobile and arcade versions, this modern remake adds smooth movement, simple UI, and a nostalgic pixel-art feel. Built for WebGL and desktop.
-
-
-
----
-
-
-
-\## 🎮 Features
-
-
-
-\- 🟢 Eat and grow – classic snake mechanics
-
-\- 🚫 Don’t crash into walls or yourself
-
-\- 🕹️ Keyboard controls (Arrow keys / WASD)
-
-\- 🔁 Menu with scene switching (Start / Restart)
-
-\- 🔊 Optional music \& sound effects
-
-\- 🌐 WebGL-ready – playable in browser
-
-
+[▶️ **Play on Itch.io**](https://el-legato.itch.io/pixel-snake-dx)  
+_(No downloads. Just launch and play!)_
 
 ---
 
+## 🎮 Features
 
+- 🟢 Classic snake gameplay – eat and grow
+- 💥 Avoid crashing into walls or yourself
+- 🕹️ Keyboard support (WASD / Arrow keys)
+- 📺 Scene switching (menu → game → restart)
+- 🔊 Sound effects and optional music
+- 🌐 WebGL build for browser play
 
-\## 📂 Project Structure
+---
 
+## 📸 Screenshots
 
+<img src="Assets/Art/screenshot1.png" width="600" alt="Gameplay Screenshot" />
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone or download this repository  
+2. Open the project in Unity Hub (version 2020.3.43f1 LTS)  
+3. Load the `Scenes/Main.unity` scene  
+4. Press ▶️ Play or build to WebGL (File → Build Settings)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Unity** 2020.3.43f1 LTS
+- **C#** for gameplay and input logic
+- Unity's built-in UI system
+- Keyboard input via `Input.GetKey()`
+- Scene management (`SceneManager`)
+
+---
+
+## 🗂️ Project Structure
 
 Assets/
-
-├── Art/ # Sprites, tiles, visuals
-
-├── Audio/ # Sound effects and music
-
-├── Prefabs/ # Snake body parts, fruit, etc.
-
-├── Scenes/ # Main scene + UI/menu
-
+├── Art/ # Sprites and visuals
+├── Audio/ # Music and sound effects
+├── Prefabs/ # Snake parts, fruit
 ├── Scripts/ # Game logic
+├── Scenes/ # Game and menu
+├── UI/ # Buttons, fonts
+---
 
-├── UI/ # Canvas, buttons, fonts
+## 👨‍💻 Author
 
-
-
-
+**Tony (Legato12)**  
+This project was made as part of my personal Unity portfolio.  
+Thanks for playing!
 
 ---
 
+## 📄 License
 
-
-\## 🛠️ Built With
-
-
-
-\- Unity \*\*2020.3.43f1 (LTS)\*\*
-
-\- C# scripting
-
-\- Unity UI \& Scene Management
-
-\- WebGL build support
-
-\- Keyboard input (Input.GetKey)
-
-
-
----
-
-
-
-\## 📸 Screenshots
-
-
-
-!\[Gameplay](Assets/Art/screenshot1.png)  
-
-
-
----
-
-
-
-\## 🚀 How to Play
-
-
-
-1\. Clone or download this repository
-
-2\. Open in Unity Hub (`2020.3.43f1`)
-
-3\. Open the `Scenes/Main.unity`
-
-4\. Press ▶️ Play or build for WebGL
-
-
-
----
-
-
-
-\## 🌐 Play Online
-
-\[▶️ Play on itch.io]https://el-legato.itch.io/pixel-snake-dx
-
-
-
----
-
-
-
-\## 👨‍💻 Author
-
-
-
-\*\*Tony (Legato12)\*\*  
-
-Made as part of my Unity portfolio and for fun 💚
-
-
-
----
-
-
-
-\## 📄 License
-
-
-
-This project is open-source and free to use for learning, modification, or inspiration.
-
-
-
-
-
+Free to use, learn from, or build on. Credit is appreciated but not required.
