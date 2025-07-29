@@ -43,7 +43,7 @@ public class Snake : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.S) && direction != Vector2.up) direction = Vector2.down;
         else if (Input.GetKeyDown(KeyCode.A) && direction != Vector2.right) direction = Vector2.left;
         else if (Input.GetKeyDown(KeyCode.D) && direction != Vector2.left) direction = Vector2.right;
-        else if (Input.GetKeyDown(KeyCode.Escape))
+        else if (Input.GetKeyDown(KeyCode.M))
         {
             isGameOver = true;
             string scene = SceneManager.GetActiveScene().name;

@@ -356,8 +356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodPrefab: {fileID: 5418514264512382, guid: 7ea25cd4a0113bf419bb76d71e902dca, type: 3}
-  borderX: 10
-  borderY: 10
+  borderX: 9
+  borderY: 9
   foodParent: {fileID: 1282789863}
 --- !u!4 &393105682
 Transform:
@@ -644,7 +644,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'quit - "Esc"
+  m_Text: 'Menu - "M"
 
 '
 --- !u!222 &1032937671

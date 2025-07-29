@@ -3,8 +3,8 @@ using UnityEngine;
 public class FoodSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject foodPrefab;
-    [SerializeField] private int borderX = 9;
-    [SerializeField] private int borderY = 9;
+    [SerializeField] private int borderX;
+    [SerializeField] private int borderY;
     [SerializeField] private Transform foodParent;
 
   private void Start()
